@@ -80,8 +80,8 @@
       color: $white;
       background-color: $brand-primary;
       opacity: 1;
-      font-family: $font-family-roboto;
-      font-size: 12px;
+      font-family: $font-family-base;
+      font-size: 13px;
       padding: 4px;
       text-align: center;
       position: absolute;
@@ -147,12 +147,14 @@ a.oo-play-pause {
   background-color: $brand-primary !important;
   text-align: center;
   padding: 0 !important;
-  span {
+  span.oo-icon {
     line-height: 70px !important;
     font-size: 30px;
+    &.oo-icon-play-slick {
+      padding-left: 5px;
+    }
   }
 }
-
 
 a.oo-volume-bar {
   border:0;

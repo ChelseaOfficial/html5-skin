@@ -23,13 +23,22 @@
             "general": {
               "accentColor": null
             },
+            "startScreen": {
+              "showTitle": false,
+              "showDescription": false
+            },
             "controlBar": {
               "height": "40px"
             },
             "buttons": {
               "desktopContent": [
-                { "name":"playPause", "location":"controlBar", "whenDoesNotFit":"keep", "minWidth":45 },
-                { "name": "quality", "location": "controlBar", "whenDoesNotFit": "moveToMoreOptions", "minWidth": 45 }
+                {"name":"playPause", "location":"controlBar", "whenDoesNotFit":"keep", "minWidth":45 },
+                {"name":"timeDuration", "location":"controlBar", "whenDoesNotFit":"drop", "minWidth":145 },
+                {"name":"flexibleSpace", "location":"controlBar", "whenDoesNotFit":"keep", "minWidth":1 },
+                {"name":"volume", "location":"controlBar", "whenDoesNotFit":"keep", "minWidth":240 },
+                {"name":"share", "location":"controlBar", "whenDoesNotFit":"moveToMoreOptions", "minWidth":45 },
+                {"name":"quality", "location":"controlBar", "whenDoesNotFit":"moveToMoreOptions", "minWidth":45 },
+                {"name":"fullscreen", "location":"controlBar", "whenDoesNotFit":"keep", "minWidth":45 }
               ]
             }
           }

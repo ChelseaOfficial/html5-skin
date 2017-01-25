@@ -110,11 +110,19 @@
   }
 
   .oo-action-icon {
-    @extend .oo-center-vertical-horizontal;
+    position: absolute;
+    bottom: 0;
+    left: 60px;
+    width: 80px;
+    height: 70px !important;
+    background-color: $brand-primary !important;
+    text-align: center;
+    padding: 0 0 0 5px !important;
     cursor: pointer;
 
     span.oo-icon {
-      font-size: 150px;
+      line-height: 70px;
+      font-size: 30px !important;
       opacity: 1;
       color: white;
     }
