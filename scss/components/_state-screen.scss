@@ -1,6 +1,5 @@
 .oo-state-screen {
   @extend .oo-expand;
-  overflow: hidden;
   cursor: default;
   @include vendor-prefixes(user-select, none);
 

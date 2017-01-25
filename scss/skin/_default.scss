@@ -7,7 +7,6 @@
 .oo-player {
   display: block;
   position: relative;
-  overflow:hidden;
   vertical-align: top;
   background-color: $body-bg !important;
   padding: 0;
@@ -59,7 +58,6 @@
 // player skin container
 .oo-player-skin {
   @extend .oo-expand;
-  overflow: hidden;
   z-index: $zindex-player-skin;
 }
 
