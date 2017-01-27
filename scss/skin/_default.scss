@@ -28,18 +28,21 @@
   // fullscreen styles
   &:-moz-full-screen {
     position: absolute;
+    margin-bottom: 26px;
     width: 100% !important;
     height: 100% !important;
     padding:0 !important;
   }
 
   &:-webkit-full-screen {
+    margin-bottom: 26px;
     width: 100% !important;
     height: 100% !important;
     padding:0 !important;
   }
 
   &:-ms-fullscreen {
+    margin-bottom: 26px;
     width: 100% !important;
     height: 100% !important;
     padding:0 !important;
@@ -47,6 +50,7 @@
 
   // "full window" style, if fullscreen is not supported natively
   &.oo-fullscreen {
+    margin-bottom: 26px;
     position:fixed;
     overflow: hidden;
     top:0;
