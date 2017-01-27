@@ -28,7 +28,7 @@
               "showDescription": false
             },
             "controlBar": {
-              "height": "40px"
+              "height": null
             },
             "buttons": {
               "desktopContent": [
@@ -37,7 +37,18 @@
                 {"name":"flexibleSpace", "location":"controlBar", "whenDoesNotFit":"keep", "minWidth":1 },
                 {"name":"volume", "location":"controlBar", "whenDoesNotFit":"keep", "minWidth":240 },
                 {"name":"share", "location":"controlBar", "whenDoesNotFit":"moveToMoreOptions", "minWidth":45 },
-                {"name":"quality", "location":"controlBar", "whenDoesNotFit":"moveToMoreOptions", "minWidth":45 }
+                {"name":"quality", "location":"controlBar", "whenDoesNotFit":"moveToMoreOptions", "minWidth":45 },
+                {"name":"moreOptions", "location":"controlBar", "whenDoesNotFit":"keep", "minWidth":45 }
+
+              ],
+              "mobileContent": [
+                {"name":"playPause", "location":"controlBar", "whenDoesNotFit":"keep", "minWidth":45 },
+                {"name":"timeDuration", "location":"controlBar", "whenDoesNotFit":"drop", "minWidth":100 },
+                {"name":"flexibleSpace", "location":"controlBar", "whenDoesNotFit":"keep", "minWidth":1 },
+                {"name":"volume", "location":"controlBar", "whenDoesNotFit":"keep", "minWidth":50 },
+                {"name":"share", "location":"moreOptions" },
+                {"name":"quality", "location":"controlBar", "whenDoesNotFit":"moveToMoreOptions", "minWidth":45 },
+                {"name":"moreOptions", "location":"controlBar", "whenDoesNotFit":"keep", "minWidth":45 }
               ]
             }
           }

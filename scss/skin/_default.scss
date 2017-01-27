@@ -12,6 +12,7 @@
   padding: 0;
   width: 100%;
   height:0;
+  margin-bottom: 50px;
   // default aspect ratio 16:9
   @include set-aspect-ratio(16, 9);
   @include vendor-prefixes(transition, padding-top 0.5s ease);
